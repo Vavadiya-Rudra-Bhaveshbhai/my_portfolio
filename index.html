@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Rudra Vavadiya — Portfolio</title>
+  <meta name="description" content="Rudra Vavadiya — B.Tech CSE student at IIT Indore. Projects: QuantPy, ML/CV, NLP, etc." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="assets/favicon.png" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#home">Rudra Vavadiya</a>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+        <button id="theme-toggle" aria-label="Toggle theme">☾</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-left">
+          <h1>Rudra Vavadiya</h1>
+          <p class="lead">B.Tech — Computer Science & Engineering, IIT Indore<br/>Quant & Machine Learning enthusiast</p>
+          <div class="cta">
+            <a class="btn" href="#projects">See projects</a>
+            <a class="btn outline" href="assets/resume (1).pdf" download>Download Resume</a>
+          </div>
+
+          <ul class="contact-inline">
+            <li>📞 +91-9558495485</li>
+            <li>✉️ <a href="mailto:vavadiyarudra210@gmail.com">vavadiyarudra210@gmail.com</a></li>
+            <li><a href="https://github.com/Vavadiya-Rudra-Bhaveshbhai" target="_blank" rel="noopener">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/rudra-vavadiya-564144314/" target="_blank" rel="noopener">LinkedIn</a></li>
+          </ul>
+        </div>
+
+        <div class="hero-right">
+          <div class="card profile-card">
+            <img src="assets/avatar.jpg" alt="Rudra avatar" class="avatar" />
+            <div class="card-body">
+              <h3>About</h3>
+              <p>I am a B.Tech student (IIT Indore) focused on Quantitative Finance, ML and Software. Currently building option pricing libraries, ML models and tools for data-driven finance.</p>
+              <p class="muted">CGPA: 9.73/10</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Selected Projects</h2>
+
+        <div class="grid">
+          <article class="card project">
+            <h3>QuantPy — Option Pricing Library</h3>
+            <p>Pricing for European/American/Asian options using Black–Scholes, Binomial, Heston & Monte Carlo. Greeks, implied vol solvers, PnL payoff simulators, tests and docs.</p>
+            <p class="tag">Python • Finance • PyTest</p>
+            <a class="link" href="https://github.com/Vavadiya-Rudra-Bhaveshbhai" target="_blank">Repo</a>
+          </article>
+
+          <article class="card project">
+            <h3>MNIST Digit Classification (Transfer Learning)</h3>
+            <p>ResNet-18 transfer learning for MNIST (grayscale→3-channel trick). Inference pipeline and Kaggle submission workflow.</p>
+            <p class="tag">PyTorch • CV</p>
+          </article>
+
+          <article class="card project">
+            <h3>SMS Spam Classification using BERT</h3>
+            <p>Fine-tuned BERT (bert-base-uncased) on UCI SMS dataset, training pipeline with HuggingFace Trainer and inference module.</p>
+            <p class="tag">NLP • Transformers • PyTorch</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section alt">
+      <div class="container">
+        <h2>Skills & Tools</h2>
+        <div class="chips">
+          <span>Python</span><span>C++</span><span>HTML/CSS/JS</span><span>PyTorch</span><span>Pandas</span><span>NumPy</span><span>Backtesting</span><span>Transformers</span>
+        </div>
+
+        <h3 class="mt">Achievements</h3>
+        <ul>
+          <li>Top 1% of first-year batch (branch change by academic excellence).</li>
+          <li>JEE Mains percentile 99.89% (2024), JEE Advanced rank 1733.</li>
+          <li>Competitive coding: CF 1416, LeetCode 1661 (max).</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>If you'd like to collaborate, hire me for internships, or just say hi — email me.</p>
+        <p><strong>Email:</strong> <a href="mailto:vavadiyarudra210@gmail.com">vavadiyarudra210@gmail.com</a></p>
+        <p><strong>Phone:</strong> +91-9558495485</p>
+        <p><strong>Location:</strong> India</p>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>Made by Rudra Vavadiya — <a href="assets/resume (1).pdf" download>Resume</a></p>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
